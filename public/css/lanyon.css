@@ -326,6 +326,19 @@ a.sidebar-nav-item:focus {
   color: #9a9a9a;
 }
 
+.page-date {
+  display: block;
+  margin-top: -.5rem;
+  color: #9a9a9a;
+}
+
+.post-tags {
+  display: block;
+  margin-bottom: 1rem;
+  color: #989898;
+  font-size: 75%
+}
+
 /* Related posts */
 .related {
   padding-top: 2rem;
