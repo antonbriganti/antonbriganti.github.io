@@ -2,8 +2,8 @@
 title:               Anton's Eclectic Blog
 tagline:             'A place for me to write about whatever'
 description:         'We all need a space to yell into the void.'
-url:                 http://antonbriganti.github.io
-baseurl:             ''
+url:                 https://antonbriganti.github.io
+baseurl:             'https://antonbriganti.github.io'
 paginate:            5
 permalink:           pretty
 
