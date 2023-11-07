@@ -6,6 +6,7 @@ url:                 https://antonbriganti.github.io
 baseurl:             /
 paginate:            5
 permalink:           pretty
+future:              true
 
 # About/contact
 author:
