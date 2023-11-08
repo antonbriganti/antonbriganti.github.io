@@ -7,7 +7,11 @@ layout: default
   <h3 class="post-description">{{ page.description }}</h3>
   <span class="page-date">{{ page.date | date_to_string }}</span>
   {{ content }}
-  <span class="post-tags">tagged: {{ page.tags | array_to_sentence_string }}</span>
+  <span class="post-tags">tagged: 
+    {%- for tag in page.tags -%}
+      <a href="/tags/#{{- tag -}}">&nbsp;{{- tag -}}</a>{%- unless forloop.last -%},{% endunless %}
+    {%- endfor -%}
+  </span>
 </div>
 
 
