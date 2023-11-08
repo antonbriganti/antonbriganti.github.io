@@ -30,7 +30,7 @@
 
   <div class="sidebar-item">
     <p>
-    {{ site.github.build_revision }}
+    {{ site.github.build_revision | truncate: 7, "" }}
     &copy; {{ site.time | date: '%Y' }}. All rights reserved.
     </p>
   </div>
