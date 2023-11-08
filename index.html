@@ -12,9 +12,11 @@ title: Home
             {{ post.title }}
           </a>
         </h1>
+        <h3 class="post-description">{{ post.description }}</h3>
         <span class="post-date">{{ post.date | date_to_string }}</span>
 
-        {{ post.description }}
+        
+        {{ post.excerpt }}
 
         <span class="post-tags">tagged: {{ post.tags | array_to_sentence_string }}</span>
       </div>
