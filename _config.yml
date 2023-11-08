@@ -1,7 +1,7 @@
 # Setup
 title:               Anton's Eclectic Blog
 tagline:             'We all need a space to yell into the void.'
-description:         'A place for me to write about whatever'
+description:         'It was either starting a blog no one would read or start a podcast nobody would listen to'
 url:                 https://antonbriganti.github.io
 baseurl:             /
 paginate:            5
@@ -13,4 +13,4 @@ plugins:
   - jekyll-paginate
 
 # Custom vars
-version:             1.1.0
+repository:          antonbriganti/antonbriganti.github.io
