@@ -1,0 +1,55 @@
+---
+layout: post
+title: How a team’s processes shape the growth of a developer
+description: You know that old saying, it takes a village to raise a developer
+tags: [work]
+hidden: true
+---
+
+Recently I’ve been thinking a lot about how a developer grows their skills and how the work processes a team maintains contributes to that growth. I think it’s important to establish that the skills I’m talking about aren’t just purely technical ones. ”Soft” skills, especially communication, are just as vital as the “hard” skills.
+
+It’s something that I feel have a strong interest in, having come through a graduate program which has a big focus on helping grads build their skills through things like assigning mentors to help you out during the first few months in the company, and also a flexible rotation period which allows a grad to see the different teams/tech stacks/methodologies that exist in the business and really build up “core” skills before you choose to join a team permanently. Obviously in a structure like that, a developer has multiple chances to continue to grow, but once you’re permanently in a team, it’s a much different dynamic. Now instead of being in an environment which the key focus is “skill development”, the focus shifts to “delivering features”. This isn’t inherently bad, but it can be difficult to focus on building your skills.
+
+So how do you go about growing? The obvious answer is to just work on more cards and then you’ll start to get better. They say the fastest way to pick up a language is to go to the country and speak it right? I think learning by doing is a pretty valid approach, especially since that when you’re working on a local branch the only thing that breaks is your own branch, so experimenting is safe and hopefully relatively easy to rollback and try again. But this isn’t the most helpful approach. Toiling by yourself when you have features to deliver isn’t productive, and the skills of a developer aren’t just the ability to write code that works. 
+
+So how else are you to build your skills by yourself? Trick question, you don’t have build them by yourself, your team can help you build them up. It takes a village to raise a child and it takes a team to grow a developer. But it’s not as simple as just being in a team and learning by osmosis. The way the team works directly impacts the growth of a developer, and so a team should strive to have collaborative processes that help facilitate engaging conversations and critical thought.
+
+## So what are some of those processes?
+
+### Code Review
+A code review is the easiest, “cheapest” process a team can have that helps a developer’s learning journey. It allows good discussion around code quality, making sure that the knowledge of what “good code” looks like in the team is shared and agreed on. Seeing the discussions take place and even talking about your own code is a learning experience for a developer, since it makes sure you can articulate why you did something the way you did. 
+
+Personally, every team I’ve worked in has used Github PRs for their code reviews, allowing for asynchronous discussion that’s easy to follow and remains there to look back on and learn lessons from.
+
+The downside to code reviews is that it only catches problems at the end, which means that a developer is still left to themselves while they work on the code, and as we’ve established, that’s not always the most productive approach for both the completion of work AND the development of skills. You could maybe create a draft PR and get feedback as you go along, but sometimes you need real time feedback and advice. I wonder if there’s a way to achieve that...
+
+### Card kickoffs
+Kicking cards off as a team are a really good time to establish domain context for a piece of work and discuss a technical approach at a high level. This helps reduce the possible confusion around a card’s purpose and also spread the knowledge of what can be done to reduce singular dependencies on a developer. If they get sick and the card is picked up by someone else, now you’ve got documented approach on what they were trying to do.
+
+So how does this help build a developer’s skills? Well, similar to the code review, it helps build communication skills as a developer has to explain what approach they’re thinking as well as the overall reasoning/importance of the card. It also helps provide domain context and provide the chance to see how the work the team does fits into a larger picture. Personally I think that developing the understanding of how your work fits in the grand scheme of things helps a developer create better or smarter solutions. You need to know your customers to build something good for them, so it probably stands to reason that you need to know what will consume your code so you can build something that integrates well with it.
+
+So a card kick off is also another good process that promotes the growth of developer skills, and it especially focuses on the “soft” skills. But it’s lacking in helping a developer grow their more technical skills, like the actual coding side of things. If only there was some kind of way to get the benefits of both processes at the same time...
+
+### Pairing
+Surprise this article is actually one of those “why pairing is good” articles! In my opinion, it’s a near perfect way of helping grow all aspects of developer’s skillset.  Now, pairing’s been talked to death as being a positive thing and how we should all do it, and for good reason to be honest. It’s a really effective medium to share problems, ideas, and solutions while working on a card. Just from that description, the benefit for a learning developer is immediately obvious. It’s growing all your important skills at once. You’ll need to effectively communicate what you’re thinking to your partner to explain your ideas, you’re writing code to get the card done and also getting immediate feedback around things like code quality. 
+
+I think a bit of an underrated aspect of pairing is the reduced attachment of code. It’s harder to be attached to an idea or solution when it’s shared with someone else and they’re willing to rework it. After all, if they worked on it with you and they think it can be better, it’s probably the case right? I think that reduced sense of ownership is vital for any developer, especially ones that are more junior. Ideas, and code by extension, are malleable and meant to be changed and shaped by new information and other opinions. It doesn’t mean get rid of everything if someone says it’s bad, but it does mean you should be open to changing things. When you’re pairing, this process is happening constantly, and it leads to better solutions.
+
+There’s a chance you’re reading this and thinking “we do pairing already, our developers are gonna be growing constantly”. It’s good that you’re pairing but is your team really pairing? Pairing comes in many different flavours, and as a team matures its pairing practices, they can adopt what works for them. But to be honest, I know there are a lot of teams that consider ”one developer looking as another codes” as pairing, and while that can work, in most cases it’s the more senior developer who’s coding and the junior developer watching, and that’s not conducive to the growth of the junior developer. If they don’t get a chance to write code, that’s most of the benefits we just talked about gone or severely diminished.
+
+It’s important that if your team is going to adopt pairing as a common practice, that everyone has a solid understanding of the fundamentals of pairing. It’s one thing to “pair” but it’s another to understand the dynamic and different approaches to work with it. Understanding the role of the “driver” and “navigator” is vital, because then you can figure out how that dynamic can be adapted to best suit your team and environment. 
+
+And like with all processes, these approaches are fluid and can be changed as you go along. You don’t have to stick to a single approach forever, you don’t even need to keep to a single approach for the entire team. All that matters is that whatever you do choose to do enables developer growth by allowing active contribution and collaboration. Pairing is hard to get right, but once you do, it pays off exponentially in the long term, especially for any developer that’s trying to grow their skills. 
+
+#### A quick aside about mobbing
+Pairing’s hard to get right and mobbing is even harder. I’ve only experienced one team that did mobbing really well, and that was because they already had a strong pairing culture they built off. I think if you dive into mobbing without having done pairing well first, it’s going to be hard to make it effective and not fall into the trap of “senior developer writes code with occasional input from fellow developers”. And realistically speaking, a junior dev might have even less input on these or have their voice drowned out by others. Not due to maliciousness or anything, but if you were unsure of your skills or in the middle of trying to build them up, wouldn’t you feel reluctant to talk when the rest of your team already is? There’s probably a whole aside here about how safety is a precondition of quality but probably not the most relevant here.
+
+## How does this help my team?
+So we’ve talked a lot about how a team’s processes can benefit an individual, but let’s face it, that’s a lot of effort to put in to just help out a single developer. However, what if I told you that introducing these kinds of collaborative process actually benefits the entire team? It becomes a lot more enticing, huh?
+
+A key benefit is that these collaborative processes help introduce new perspectives being introduced while a team works. The buzz word innovation can be used here but it’s more than just that. If everyone is constantly collaborating, everyone can feel safer introducing their own opinions/ideas, increasing diversity in approach and, long term, that’ll help the team create some really cool things. And that constant innovation doesn’t applies to everything, from code to even the processes themselves.
+
+When you take part in these kinds of processes, in reality you’re actually solidifying your existing skills and developing new ones. When you take time to explain the greater architecture of your application or how a certain code snippet works, you’re actually double checking your own knowledge and sometimes you may even find that you have a gap in what you know. The process of explaining something in general is fantastic way to build your communication skills.
+
+Now you might be thinking, “Wait a second, all those things you just said is what the junior developer gets out of these processes!” And you’d be right. These processes don’t just benefit a single developer on the team. They benefit everyone. They create an environment where all developers help each other out, constantly swapping between a mentor and mentee role. Everybody wins! A junior developer in a team is really just a coincidental reason a team can embark on this journey. 
+

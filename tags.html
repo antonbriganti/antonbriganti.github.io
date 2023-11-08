@@ -13,14 +13,14 @@ title: Tags
 {%- assign tags_list = site_tags | split:',' | sort -%}
 
 {%- for tag in tags_list -%}
-    <a href="#{{- tag -}}">&nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})</a>
+        <a href="#{{- tag -}}">&nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})</a>
 {%- endfor -%}
 
 <div id="full-tags-list">
 {%- for tag in tags_list -%}
     <h2 id="{{- tag -}}" class="linked-section">
         <i></i>
-        &nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})
+        &nbsp;{{- tag -}}&nbsp;
     </h2>
     <div class="post-list">
         {%- for post in site.tags[tag] -%}
