@@ -1,7 +1,7 @@
 # Setup
 title:               Anton's Eclectic Blog
-tagline:             'A place for me to write about whatever'
-description:         'We all need a space to yell into the void.'
+tagline:             'We all need a space to yell into the void.'
+description:         'A place for me to write about whatever'
 url:                 https://antonbriganti.github.io
 baseurl:             /
 paginate:            5
