@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Initial commit
-description: What's the deal with this site anyway? 
+description: See the joke is that all code repos start with a message like initial commit
 tags: [personal]
 ---
 
