@@ -609,3 +609,9 @@ a.pagination-item:hover {
   background-color: #98FB98;
   border-left-color: #3CB371;
 }
+
+img + em {
+  display: block;
+  text-align: center;
+  margin-top: -1rem;
+}
