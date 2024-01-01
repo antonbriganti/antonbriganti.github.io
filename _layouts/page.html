@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+{% if page.image %}
+  <meta property="og:image" content="{{ page.image }}">
+{% endif %}
 
 <div class="page">
   <h1 class="page-title">{{ page.title }}</h1>
