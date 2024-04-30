@@ -2,7 +2,7 @@
 layout: post
 title: The Monthly Review, February '24
 description: If it takes 2 months to form a habit, does this count as one now?
-tags: [the monthly review]
+tags: [the monthly review, review]
 image: public/images/2024-02/monthly-review/cover.png
 ---
 

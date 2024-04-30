@@ -2,7 +2,7 @@
 layout: post
 title: The Monthly Review, January ’24
 description: The debut of an ongoing feature - it’s like this is a real blog or something
-tags: [the monthly review]
+tags: [the monthly review, review]
 image: public/images/2024-01/monthly-review/cover.png
 ---
 
