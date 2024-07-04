@@ -31,7 +31,7 @@ On a production level it sounds a lot better to me. I always hate talking about 
 
 When it comes to the track list, everything now has names which is definitely an improvement. There have been some changes which aren't all for the best. Human Sacrifice, previously a bit of a grail for Gambino fans after it was used in a Pixel ad and then never released fully until now, is the best addition and fits the vibe well. But I lament the losses more than the additions. A couple of the more instrumental tracks were cut/replaced, and the small interludes between tracks which blended them together are either gone or in the particular case of Psilocybae (Millennial Love) into To Be Hunted, one half is left in but the other isn't.
 
-<video muted autoplay controls width="500" style="display:block; margin-left:auto; margin-right:auto">
+<video muted controls width="100%" style="display:block; margin-left:auto; margin-right:auto">
     <source src="/public/images/2024-07/monthly-review/comparison.mp4" type="video/mp4">
 </video>
 ![]()
