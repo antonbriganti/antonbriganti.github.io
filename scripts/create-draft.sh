@@ -7,6 +7,7 @@ file="./_drafts/$draftdate$filename.md"
 cp ./_drafts/_template.md $file
 
 # setup content directory
+mkdir "./public/images/$(date +%Y-%m)"
 mkdir "./public/images/$(date +%Y-%m)/$filename"
 
 # fill in draft info
