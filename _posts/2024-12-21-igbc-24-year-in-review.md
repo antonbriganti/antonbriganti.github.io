@@ -9,7 +9,7 @@ contentDir: /public/images/2024-12/igbc-24-year-in-review/
 Another year, another Indie Game Book Club retrospective! If you’re unfamiliar with what I’m talking about, the short of it is that we’re a group who gets together to play a new game roughly once a month and then talk about it together. I thought it’d be good to look back on the year, talk about what we did differently and once again share my reviews for all the games we played. 
 
 ## How do you do an “Indie Game Book Club”?
-I covered the concept and structure of Indie Game Book Club (IGBC) last year, so you can just [read the post from back then]{% link _posts/2023-12-08-igbc-year-in-review.md %}. 
+I covered the concept and structure of Indie Game Book Club (IGBC) last year, so you can just [read the post from back then]({% link _posts/2023-12-08-igbc-year-in-review.md %}). 
 
 ## Any format changes this year?
 Yeah, a couple actually! We’ve moved back to online calls as our glorious founder Julian moved overseas. I don’t think it’s affected the quality of discussion or anything, although I do miss the in person chats because at least there’s no mic troubles or connection issues. 
