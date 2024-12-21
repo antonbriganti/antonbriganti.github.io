@@ -4,7 +4,7 @@ title: A Retrospective on Guild 01&02
 description: Looking back on Level-5’s fun and weird 3DS compilation games
 tags: [video games]
 contentDir: /public/images/2024-07/guild0102-retro/
-image: public/images/2024-07/guild0102-retro/cover.jpeg
+image: /public/images/2024-07/guild0102-retro/cover.jpeg
 ---
 I’ve been in the mood for DS and 3DS games lately. I’ve got a lot of nostalgia for the handheld gaming era - I miss weird ports that try to condense down big console games, games that have really cool tech that makes you think how they managed that on weaker hardware, and I especially miss the smaller scale games with weird concepts which developers didn’t have to spend millions of dollars and years of development to make. So in my yearning of a bygone era, I decided to do a deep dive on the Guild games on 3DS, which I felt really embodied the weird small scale stuff we never see in the “mainstream” anymore. 
   

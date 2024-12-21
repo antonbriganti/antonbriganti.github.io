@@ -4,7 +4,7 @@ title: "Indie Game Book Club '24: Year In Review"
 description: Another year, another banger year of IGBC
 tags: [igbc, review, video games]
 contentDir: /public/images/2024-12/igbc-24-year-in-review/
-#image: 
+image: /public/images/2024-12/igbc-24-year-in-review/cover.png
 ---
 Another year, another Indie Game Book Club retrospective! If you’re unfamiliar with what I’m talking about, the short of it is that we’re a group who gets together to play a new game roughly once a month and then talk about it together. I thought it’d be good to look back on the year, talk about what we did differently and once again share my reviews for all the games we played. 
 

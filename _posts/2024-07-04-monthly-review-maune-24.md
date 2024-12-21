@@ -3,10 +3,9 @@ layout: post
 title: The Monthly Review, May and June '24
 description: The skip was intentional this time, promise
 tags: [the monthly review, review]
-image: public/images/2024-07/monthly-review/cover.png
+image: /public/images/2024-07/monthly-review/cover.png
 ---
 
-![](/public/images/2024-07/monthly-review/cover.png)
 Okay so elephant in the room - yeah it's another double month Monthly Review. But I actually meant to do it this time around! At the end of May, I didn't really have anything I wanted to talk about except one album. On the gaming side of things,  I had spent my time replaying long-ish games (Fallout: New Vegas and Digimon World DS) and movie wise, nothing felt right for a more longer form review that I didn't cover on my Letterboxd account. So I decided to do another double month feature! I hope you enjoy the Maune Monthly Review! 
 
 <hr/> 

@@ -3,10 +3,9 @@ layout: post
 title: The Monthly Review, March and April '24
 description: It's still monthly, it just took more months than usual this time
 tags: [the monthly review, review]
-image: public/images/2024-04/monthly-review/cover.png
+image: /public/images/2024-04/monthly-review/cover.png
 ---
 
-![](/public/images/2024-04/monthly-review/cover.png)
 Like a bolt from the blue, it's time for The Monthly Review! I've been in a bit of a writer's slump lately so I didn't do one last month, so instead we're just going to treat March and April as one big month. We can call it Marpril or Aprich, whichever sounds most appealing to you. Some of the reviews are longer this time around, which I hope makes up for brief hiatus. 
 
 <hr/> 

@@ -3,10 +3,9 @@ layout: post
 title: The Monthly Review, February '24
 description: If it takes 2 months to form a habit, does this count as one now?
 tags: [the monthly review, review]
-image: public/images/2024-02/monthly-review/cover.png
+image: /public/images/2024-02/monthly-review/cover.png
 ---
 
-![](/public/images/2024-02/monthly-review/cover.png)
 Like a bolt from the blue, it’s time for The Monthly Review! Despite it being the shortest month, I’m still writing a full length article! If that’s not dedication, I don’t know what is. I nearly didn't have a movie I wanted to talk about this time, which got me thinking about changing up the format for this. It's the same this time, but who knows, maybe I'll be writing about a TV show next time?
 
 <hr/>

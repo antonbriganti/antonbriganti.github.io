@@ -3,10 +3,9 @@ layout: post
 title: The Monthly Review, January ’24
 description: The debut of an ongoing feature - it’s like this is a real blog or something
 tags: [the monthly review, review]
-image: public/images/2024-01/monthly-review/cover.png
+image: /public/images/2024-01/monthly-review/cover.png
 ---
 
-![](/public/images/2024-01/monthly-review/cover.png)
 Like a bolt from the blue, it’s time for The Monthly Review! Last year I enjoyed the process of writing little reviews for all the games I played that I thought I’d try to do something like that more often through out the year. Each month I’ll be doing a review of a new album I’ve listened to, a new game I’ve played, and a new movie I’ve watched. And I have to keep this up because I spent a lot of time making a template for the thumbnail/article header, and I can’t let that all go to waste.
 
 <hr/>

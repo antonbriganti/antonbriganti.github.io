@@ -3,7 +3,7 @@ layout: post
 title: Top 5 Reasons Why I Write
 description: The sincerity of number 4 will SHOCK you!
 tags: [personal]
-image: public/images/2024-04/top5/cover.png
+image: /public/images/2024-04/top5/cover.png
 ---
 That’s right, I’m not above clickbait titles. There’s not even a reason for me to do it - I don’t run ads, I don’t track impressions, I don’t even have a late 90s/early 2000s visitor count. I’m doing clickbait for the love of the game, for the respect of the hustle. 
 
