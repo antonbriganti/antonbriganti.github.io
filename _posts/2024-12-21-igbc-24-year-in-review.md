@@ -112,7 +112,7 @@ Dead Plate is really rough around the edges, I am not going to lie to you. The c
 ![Mullet MadJack]({{ page.contentDir }}/madjack.jpg){:width="720"}
 ***Platform:** PC | **Release Year:** 2023 | **Publisher:** Epopeia Games*
 
-This was my first nomination to win since I nomintated Norco in 2022, what a brutal dry streak. Anyway this game rocks so hard I forgot to write notes for it. High energy arcade style FPS with an 80s anime coat of paint on it. Does it suffer from the aesthetic feeling a bit too stereotypical? Maybe but who cares, I’ve got an Uzi that’s firing infinite bullets and I’m killing robots by the dozens. That’s video games baby! **9/10**
+This was my first nomination to win since I nominated Norco in 2022, what a brutal dry streak. Anyway this game rocks so hard I forgot to write notes for it. High energy arcade style FPS with an 80s anime coat of paint on it. Does it suffer from the aesthetic feeling a bit too stereotypical? Maybe but who cares, I’ve got an Uzi that’s firing infinite bullets and I’m killing robots by the dozens. That’s video games baby! **9/10**
 
 ### Session 7 - Party Game Night
 Another returning theme from last year, we shifted the party to mid year to celebrate Julian visiting us. Just like last time, we didn't have any deep critical discussion about the games and instead focused on ~~yelling at each other~~ having a good time together!
