@@ -57,7 +57,7 @@ A cute throwback that captures the bygone of early-mid 2000s forum culture. Real
 ![Balatro]({{ page.contentDir }}/balatro.webp){:width="720"}
 ***Platform:** PC, iOS | **Release Year:** 2024 | **Publisher:** Playstack*
 
-Stop me if you’ve heard this one before - this rougelike game is really fun and addictive at the start, especially as you’re unlocking new things and learning new strategies, but eventually falls victim to overplaying and a feeling of staleness. Balatro is a lot of fun but at the end of the day, it’s still a roguelike with all the same problems as the others.
+Stop me if you’ve heard this one before - this roguelike game is really fun and addictive at the start, especially as you’re unlocking new things and learning new strategies, but eventually falls victim to overplaying and a feeling of staleness. Balatro is a lot of fun but at the end of the day, it’s still a roguelike with all the same problems as the others.
 
 That’s what I said when I first reviewed the game, but I gotta say, I’ve come back to it now that it’s on Apple Arcade and I’ve been back in harder than before. The ability to unlock everything from the start so I didn’t have to grind out certain jokers or stakes rocks, really helps with replayability. Playing on mobile also was the first time I tried the challenge runs which was a great way to push my understanding of the game. It’s still not my favourite roguelike but I’m fonder for it now than when I first played it. **8.5/10**
 
@@ -112,7 +112,7 @@ Dead Plate is really rough around the edges, I am not going to lie to you. The c
 ![Mullet MadJack]({{ page.contentDir }}/madjack.jpg){:width="720"}
 ***Platform:** PC | **Release Year:** 2023 | **Publisher:** Epopeia Games*
 
-This was my first nomination to win since I Norco in 2022, what a brutal dry streak. Anyway this game rocks so hard I forgot to write notes for it. High energy arcade style FPS with an 80s anime coat of paint on it. Does it suffer from the aesthetic feeling a bit too stereotypical? Maybe but who cares, I’ve got an Uzi that’s firing infinite bullets and I’m killing robots by the dozens. That’s video games baby! **9/10**
+This was my first nomination to win since I nomintated Norco in 2022, what a brutal dry streak. Anyway this game rocks so hard I forgot to write notes for it. High energy arcade style FPS with an 80s anime coat of paint on it. Does it suffer from the aesthetic feeling a bit too stereotypical? Maybe but who cares, I’ve got an Uzi that’s firing infinite bullets and I’m killing robots by the dozens. That’s video games baby! **9/10**
 
 ### Session 7 - Party Game Night
 Another returning theme from last year, we shifted the party to mid year to celebrate Julian visiting us. Just like last time, we didn't have any deep critical discussion about the games and instead focused on ~~yelling at each other~~ having a good time together!
