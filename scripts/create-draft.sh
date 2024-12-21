@@ -7,8 +7,11 @@ file="./_drafts/$draftdate$filename.md"
 cp ./_drafts/_template.md $file
 
 # setup content directory
-mkdir "./public/images/$(date +%Y-%m)"
-mkdir "./public/images/$(date +%Y-%m)/$filename"
+directory="./public/images/$(date +%Y-%m)"
+if [ ! -d "$directory" ]; then
+    mkdir "$directory"
+fi
+mkdir "$directory/$filename"
 
 # fill in draft info
 read -p "Enter title: " blogtitle
