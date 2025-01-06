@@ -20,3 +20,9 @@ newfilename="$postdate$result"
 # move draft to posts 
 echo
 mv -v ./_drafts/$originalfilename ./_posts/$newfilename
+
+# add to git
+git add "./_posts/$newfilename"
+git add "./public/images/$(date +%Y-%m)/$originalfilename"
+git commit
+git push
