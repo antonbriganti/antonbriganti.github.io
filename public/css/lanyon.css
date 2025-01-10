@@ -616,3 +616,9 @@ img + em {
   margin-top: -1rem;
   margin-bottom: 1rem;
 }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

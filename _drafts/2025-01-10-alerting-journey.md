@@ -23,28 +23,32 @@ Even if we did have capacity, another dilemma we faced was that we didn't know h
 
 Faced with both of these problems, we fell into complete alert fatigue and apathy, accepting the noise as something we lived with. Our saving grace was that we were confident about the state of our production alerting - we had a high first notification rate for any major incidents so we felt comfortable that we weren’t missing any P1s or anything. However, I’m starting to think that was just survivorship bias and we were missing other important problems but felt like we weren’t.
 
-<TODO: image of survivorship bias, caption: “visual representation of all the production alerts we caught”>
+![Famous diagram in which red dots stand for places where surviving planes were shot. Martin Grandjean (vector), McGeddon (picture), US Air Force (hit plot concept), CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons]({{ page.contentDir }}/survivorship-bias.svg)
+*Visual representation of our alerting being good enough because we caught all the reported incidents*
 
 In August, we finally had some time and capacity to deal with the alert situation. We just needed to figure out how we wanted to go about it. 
 
 # First steps to fixing alerting
 When we started out work, we thought it would be best to try and get some immediate wins. We had the assumption that even if we weren’t sure if we needed an alert, we would at least be able to fix it from firing often. So the team identified the top 10 firing alerts and created cards to deal with them. The cards were simple in scope: look at why the alert was firing, determine what the best action to resolve it is, and then resolve it. 
 
-<TODO: image of example card, caption: we love a tightly scoped card>
+![Screenshot of a Jira card]({{ page.contentDir }}/card.png)
+*An example of one the cards used for investigating an alert. We love a tightly scoped card*
 
 After the first top 10 alerts were dealt with, we identified the next top 10 alerts and repeated the process. We did this until all the low hanging fruit had been fixed. It was the quick win we needed, after doing it a couple times we went from ~730 alerts per week down to ~170. Still not great but we could at least look at our alerting a bit more critically. 
 
 # A philosophical approach
 So now that the noise was quieter, we had time to tackle the deeper issue. The team knew that our alerting approach needed improving, but we  didn’t know what our ideal alerting setup even looked like - stuff like what we wanted to alert on, when they should fire etc. We all had our own thoughts but we needed to be aligned before we tried any further improvements.
 
-<TODO: picture of the miro board, caption: snapshot from our workshop>
-
 To fix this, we decided to run a quick internal workshop where we all talked about what we think our alerting should look like, based on some simple pre-organised prompts. We were actually pretty in line with each other so there wasn’t much disagreement, which was nice. From the answers we got from that workshop, we then created the document which we call our alerting philosophy. 
+
+![Screenshot of a Miro board]({{ page.contentDir }}/workshop.jpg)
+*Here's what the end of our workshop looked like. We all placed our answers as sticky notes on the key questions, discussed then afterwards summarised our final thoughts* 
 
 # What is an alerting philosophy and how do we use it?
 The alerting philosophy is like a mission statement, outlining everything we want to our alerting to be. We’ve tried to make it as succinct and easy to reference as possible. I am personally a big fan of having a “sign to point to”, documentation that we can easily reference which provides clear answers to whatever questions are asked.
 
-<TODO: image: simpsons pointing to the sign, caption: I actually want you to make me tap the sign>
+![Simpsons meme of "don't make me tap the sign" but instead it says make me tap the sign, and the sign is a screenshot of our philosophy doc]({{ page.contentDir }}/sign.png)
+*Me every time I get to reference a "sign doc"*
 
 The document covers four key things:
 - What an ideal alert should be (actionable, representative of customer impact, descriptive)
@@ -58,6 +62,9 @@ It’s worth noting that like all documentation, the philosophy is alive and wil
 
 # So what’s it like right now, and what’s next?
 Right now, things are going a lot better than they were when we started our work. In the month of December, we had 298 alerts. That’s a nearly 90% decrease in alerts! It’s still too high and it’s got a high false alarm ratio, but I’m proud of the progress we’ve made. 
+
+![Screenshot of alerting graph, show a clear downtrend and reduction of alerts]({{ page.contentDir }}/alert-graph.png)
+*Alert graph straight from PagerDuty, for the period of August to December*
 
 As for what’s next: In the immediate future, we’re splitting up alerts to be more service specific which is giving us a chance to review what we’ve got and what we need. Through this work I’m expecting that we’ll be able to slowly but surely ensure that all alerting owned by our team matches up to the philosophy doc that we’ve got. This alongside weekly reviews of our alerts will help get that alert count even lower. 
 
