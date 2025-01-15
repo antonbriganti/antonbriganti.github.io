@@ -7,9 +7,9 @@ contentDir: /public/images/2024-07/guild0102-retro/
 image: /public/images/2024-07/guild0102-retro/cover.jpeg
 ---
 I’ve been in the mood for DS and 3DS games lately. I’ve got a lot of nostalgia for the handheld gaming era - I miss weird ports that try to condense down big console games, games that have really cool tech that makes you think how they managed that on weaker hardware, and I especially miss the smaller scale games with weird concepts which developers didn’t have to spend millions of dollars and years of development to make. So in my yearning of a bygone era, I decided to do a deep dive on the Guild games on 3DS, which I felt really embodied the weird small scale stuff we never see in the “mainstream” anymore. 
+
   
 # Setting the scene
-
 The year is 2012. Somebody That I Used To Know by Gotye is brand new but still being overplayed on all radio stations, every single joke that can be made about the world ending has been made, and the 3DS has finally gained the momentum it needed after a middling first year or so of sales. Video game developer and publisher Level-5 has some hits under their belt like Professor Layton and Inazuma Eleven but it’s probably fair to say they weren’t the absolute powerhouse they would later become. 
 
 It’s during this time that Level-5 would release Guild01, a compilation game for the 3DS. It was originally released in Japan in May 31, 2012 as a physical cartridge release. It wouldn’t come to the West until later that year in October, exclusive to the digital 3DS eShop. Guild01 contained four games, each with their own genre and each made by a separate developer. Level-5 followed up with another compilation, Guild02, one year later in 2013. This time, Guild02 only had three games and was exclusively published digitally in both Japan and the West.
