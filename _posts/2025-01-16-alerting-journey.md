@@ -32,7 +32,7 @@ In August, we finally had some time and capacity to deal with the alert situatio
 When we started out work, we thought it would be best to try and get some immediate wins. We had the assumption that even if we weren’t sure if we needed an alert, we would at least be able to fix it from firing often. So the team identified the top 10 firing alerts and created cards to deal with them. The cards were simple in scope: look at why the alert was firing, determine what the best action to resolve it is, and then resolve it. 
 
 ![Screenshot of a Jira card]({{ page.contentDir }}/card.png)
-*An example of one the cards used for investigating an alert. We love a tightly scoped card*
+*An example of one the cards used for investigating an alert. We love a tightly scoped card 👏*
 
 After the first top 10 alerts were dealt with, we identified the next top 10 alerts and repeated the process. We did this until all the low hanging fruit had been fixed. It was the quick win we needed, after doing it a couple times we went from ~730 alerts per week down to ~170. Still not great but we could at least look at our alerting a bit more critically. 
 
@@ -42,7 +42,7 @@ So now that the noise was quieter, we had time to tackle the deeper issue. The t
 To fix this, we decided to run a quick internal workshop where we all talked about what we think our alerting should look like, based on some simple pre-organised prompts. We were actually pretty in line with each other so there wasn’t much disagreement, which was nice. From the answers we got from that workshop, we then created the document which we call our alerting philosophy. 
 
 ![Screenshot of a Miro board]({{ page.contentDir }}/workshop.jpg)
-*Here's what the end of our workshop looked like. We all placed our answers as sticky notes on the key questions, discussed then afterwards summarised our final thoughts* 
+*Here's what the end of our workshop looked like. We all placed our answers as sticky notes on the key questions, discussed then afterwards summarised our final thoughts.* 
 
 ## But what is an alerting philosophy?
 The alerting philosophy is like a mission statement, outlining everything we want to our alerting to be. We’ve tried to make it as succinct and easy to reference as possible. I am personally a big fan of having a “sign to point to”, documentation that we can easily reference which provides clear answers to whatever questions are asked.
