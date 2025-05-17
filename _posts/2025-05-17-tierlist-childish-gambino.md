@@ -17,7 +17,7 @@ Before we look at the tier list, you might be asking who is Childish Gambino? It
 
 <h2 style="background-color: #7fff7f; text-align: center;"> Don't even bother dude</h2>
 
-**Pre-EP work** - For the most part I don’t go back past EP but it’s worth talking about these releases for completion’s sake I guess. I didn’t bother relistening to these like I did with everything else so my feelings might not hold up but overall, _Culdesac_ is fine, _I Am Just A Rapper 1 & 2_ are pretty bad. I haven’t listened to Pointdexter because I think it’s going to be worse than I Am Just A Rapper and I can’t do that to myself. I care so little 
+**Pre-EP work** - For the most part I don’t go back past EP but it’s worth talking about these releases for completion’s sake I guess. I didn’t bother relistening to these like I did with everything else so my feelings might not hold up but overall, _Culdesac_ is fine, _I Am Just A Rapper 1 & 2_ are pretty bad. I haven’t listened to Pointdexter because I think it’s going to be worse than I Am Just A Rapper and I can’t do that to myself. I care so little that I'm not even bothering to put the photos in for this blog post. You'll just have to look at the tier list and figure it out.
 
 <h2 style="background-color: #bfff7f; text-align: center;">It ain't making the playlist</h2>
 
@@ -59,3 +59,7 @@ Before we look at the tier list, you might be asking who is Childish Gambino? It
 
 ![“Awaken, My Love!”]({{ page.contentDir }}/awaken.jpeg){:width="400" style="display:block; margin-left:auto; margin-right:auto"}
 **“Awaken, My Love!”** - This album holds a really interesting place in Gambino’s discography. It’s a hard change in direction for him, abandoning his raps to instead release a soul funk album. I don’t think that’s what anybody would have expected from him, and to be honest, it’s still crazy to me that the same guy who made Camp made this. I’d contend that it contains Gambino’s best songwriting to date, it has him engaging in extended metaphors in each track and I don’t think there’s a single punchline to be heard. I have to say that this album did become a little less special to me after I found out he’s aping Parliament and Funkadelic tracks. Hearing Bootsy Collins’ I’d Rather Be With You gave me this real lightbulb “oh” moment of realisation of what Awaken My Love! is but also I wouldn’t have learned about it without Gambino so I guess I can’t complain too much. 
+
+<hr>
+
+Wow that's a lot of writing for something which is explained easily via an image! I'd love to sign off with something like "what do you think? Let me know in the comments" like a true #ContentCreator but I don't have any comments on these posts. I guess if you've got thoughts, message me on wherever you talk to me.
