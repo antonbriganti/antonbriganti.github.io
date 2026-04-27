@@ -4,7 +4,7 @@ title: I Want More But I Need Less
 description: If I’ve done this right, this is a short one.
 tags: [personal]
 contentDir: /public/images/2026-04/want-more-need-less/
-#image: 
+image: /public/images/2026-04/want-more-need-less/cover.png
 ---
 
 I’ve been going through something akin to writers block lately. I have a lot I want to talk about, but when I sit down to write something, I never finish because I don’t think I have enough to say. But why do I feel that way?
