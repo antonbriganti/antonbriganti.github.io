@@ -1,0 +1,106 @@
+{% comment %}
+  Image carousel. Include it as many times as you like in one article.
+
+  The slides come from the first of these that is set:
+    - include.images  (a list, OR a string for inline declaration)
+    - include.name    (looks up page.carousels[name])
+    - page.carousel   (legacy single-carousel front matter)
+
+  When include.images is a string it is split on newlines (if it has any) or
+  on commas. Each entry is `src`, `src | caption`, or `src | caption | alt`.
+
+  Array items may be either:
+    - a plain string image path/URL
+    - a map with `src` (required), and optional `caption` and `alt`
+
+  Paths that are not absolute (/...) or full URLs (http...) are resolved
+  against `page.contentDir`, matching the rest of the blog's images.
+
+  Inline examples:
+    {% include carousel.html images="cover.jpg, day1.jpg, day2.jpg" %}
+    {% include carousel.html images="cover.jpg | The cover, day1.jpg | Day one" %}
+
+    {% capture trip %}
+    cover.jpg | The cover
+    day1.jpg | Day one
+    day2.jpg
+    {% endcapture %}
+    {% include carousel.html images=trip %}
+
+  Front matter examples:
+    carousel: [cover.jpg, day1.jpg]
+    carousels:
+      guild01: [aeroporter.jpeg, aeroporter-screen.jpg]
+      guild02: [crimson.jpeg]
+    {% include carousel.html name="guild01" %}
+{% endcomment %}
+
+{% if include.images %}
+  {% assign raw = include.images %}
+{% elsif include.name %}
+  {% assign raw = page.carousels[include.name] %}
+{% else %}
+  {% assign raw = page.carousel %}
+{% endif %}
+
+{% comment %} A string has no .first; arrays/maps do. {% endcomment %}
+{% assign is_string = false %}
+{% assign items = raw %}
+{% if raw and raw.first == nil and raw.size > 0 %}
+  {% assign is_string = true %}
+  {% assign text = raw | strip %}
+  {% assign text_br = text | newline_to_br %}
+  {% if text_br contains '<br />' %}
+    {% assign items = text_br | split: '<br />' %}
+  {% else %}
+    {% assign items = text | split: ',' %}
+  {% endif %}
+{% endif %}
+
+{% assign carousel_label = include.label | default: 'Image gallery' %}
+{% if include.name and include.label == nil %}
+  {% assign carousel_label = carousel_label | append: ': ' | append: include.name %}
+{% endif %}
+
+{% assign slide_count = 0 %}
+
+{% if items and items.size > 0 %}
+<div class="carousel" data-carousel role="region" aria-roledescription="carousel" aria-label="{{ carousel_label }}">
+  <div class="carousel__viewport" data-carousel-viewport tabindex="0">
+    {% for item in items %}
+      {% if is_string %}
+        {% assign parts = item | split: '|' %}
+        {% assign src = parts[0] | strip %}
+        {% assign caption = parts[1] %}
+        {% if caption %}{% assign caption = caption | strip %}{% endif %}
+        {% assign alt = parts[2] %}
+        {% if alt %}{% assign alt = alt | strip %}{% endif %}
+      {% else %}
+        {% assign src = item.src | default: item %}
+        {% assign caption = item.caption %}
+        {% assign alt = item.alt %}
+      {% endif %}
+
+      {% if src and src != '' %}
+        {% assign first_char = src | slice: 0, 1 %}
+        {% unless src contains '://' or first_char == '/' %}
+          {% assign dir = page.contentDir | default: '/' %}
+          {% assign src = dir | append: '/' | append: src | replace: '//', '/' %}
+        {% endunless %}
+        {% assign alt = alt | default: caption | default: 'Gallery image' %}
+        {% assign slide_count = slide_count | plus: 1 %}
+        <figure class="carousel__slide" data-carousel-slide>
+          <img src="{{ src }}" alt="{{ alt | escape }}" loading="lazy" draggable="false">
+          {% if caption %}<figcaption class="carousel__caption">{{ caption }}</figcaption>{% endif %}
+        </figure>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  {% if slide_count > 1 %}
+  <button type="button" class="carousel__arrow carousel__arrow--prev" data-carousel-prev aria-label="Previous image">&#8249;</button>
+  <button type="button" class="carousel__arrow carousel__arrow--next" data-carousel-next aria-label="Next image">&#8250;</button>
+  <div class="carousel__dots" data-carousel-dots role="group" aria-label="Choose image"></div>
+  {% endif %}
+</div>
+{% endif %}
