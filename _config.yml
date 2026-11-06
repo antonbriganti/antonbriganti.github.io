@@ -2,8 +2,8 @@
 title:               Anton's Web Zone
 tagline:             'Blogs are still cool, right?'
 description:         'It was either start a blog no one would read or a podcast nobody would listen to.'
-url:                 https://antonbriganti.github.io
-baseurl:             /
+url:                 https://blog.antonbriganti.com
+baseurl:             ''
 paginate:            5
 permalink:           pretty
 future:              true
