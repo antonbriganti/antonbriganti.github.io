@@ -14,7 +14,7 @@ Big Walk is a co-op puzzle adventure game by Melbourne devs House House, who you
 
 If I don’t want to talk about the puzzles in a puzzle adventure game, I clearly want to talk about the adventure side of things. Big Walk is a game that embraces the idea that it's about the journey, not the destination. The player movement speed isn’t particularly fast, and the unlockable train and chair lift around the island are focused more around ease of transport as opposed to being a quick travel option. You never feel rushed or that the game is trying to intentionally point you towards any particular direction. You’re easily able to take in the beautiful landscape, which is modelled after Victoria’s own Wilson’s Prom, as you explore. Combined with a very tight proximity chat radius (meaning you can only hear people talk via microphone when they’re close to you), it results in spending a lot of downtime with your fellow players where you’re going to be chatting like you would if you were on a normal hike. I played through this entire game with my close friends Chris and Ryan. Despite the fact we talk every day, the novelty of doing it while on a digital walk in bird avatars was still very effective and our dumb chatter really helped sell the experience. 
 
-I enjoyed this downtime and minutiae of walking around as much, if sometimes even more than, the solving of puzzles. A big driving force behind that is that I decided to be our little group’s “photographer”, much like the role I play in real life when I’m hanging out with friends. Big Walk doesn’t have a dedicated photo mode, but you’re able to disable all the user interface stuff and take clean screenshots. 
+I enjoyed this downtime and minutiae of walking around as much, if sometimes even more than, the solving of puzzles. A big driving force behind that is that I decided to be our little group’s “photographer” who documented our adventure by taking lots of pictures, much like the role I play in real life when I’m hanging out with friends. Big Walk doesn’t have a dedicated photo mode, but you’re able to disable all the user interface stuff and take clean screenshots. I actually used them  
 
 {% capture impromptu %}
 {{ page.contentDir }}/impromptu1.jpg
@@ -24,7 +24,7 @@ I enjoyed this downtime and minutiae of walking around as much, if sometimes eve
 {{ page.contentDir }}/impromptu5.jpg
 {% endcapture %}
 {% include carousel.html images=impromptu %}
-*Candid photos, they're actually reminiscent to the ones my dad likes to take of our family.*
+*Candid photos, they actually feel reminiscent to the ones my dad likes to take of our family.*
 
 I found so much joy in taking photos of our playthrough. I would change between impromptu and candid photos, and posed photos where I would direct Chris and Ryan. When I did the former, I was trying to capture the moment and the feel of what it was like to be on our adventure. When it was the latter, I just wanted to make them do cute things that I think would look good. I very much appreciate them putting up with my demands, because I think the photos turned out great!
 
