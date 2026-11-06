@@ -87,7 +87,24 @@
       }, 150);
     });
 
-    update();
+    // Always open on the first image. Browsers restore the scroll offset of
+    // overflow containers on reload, and keep it verbatim when a page is
+    // revived from the back/forward cache, which would otherwise leave the
+    // carousel parked on whatever image was last shown.
+    function reset() {
+      index = 0;
+      programmatic = true;
+      clearTimeout(programmaticTimer);
+      viewport.scrollTo({ left: 0, behavior: 'auto' });
+      update();
+      programmaticTimer = setTimeout(function () { programmatic = false; }, 100);
+    }
+
+    window.addEventListener('pageshow', function (e) {
+      if (e.persisted) reset();
+    });
+
+    reset();
   }
 
   function init() {
